@@ -1,0 +1,9 @@
+#first {visibility: hidden; position: absolute; height: 75%; width: 600px; overflow: scroll; background-color: white; }
+
+#second {visibility: hidden; position: absolute; height: 75%; width: 600px; overflow: scroll; background-color: navy; }
+
+#third {visibility: hidden; position: absolute; height: 75%; width: 600px; overflow: scroll; background-color: navy; }
+
+table, th, td {border: 1px solid black; margin: auto; background-color: #d3d3d3}
+
+body {width: 600px; padding: 5px; background-color: #f0f0f2; border-radius: 2em; }
