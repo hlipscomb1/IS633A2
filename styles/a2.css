@@ -58,21 +58,21 @@ table {
   margin: auto;
 }
 
-#section1{
+#first{
   text-align: center;
   margin: auto;
   visibility: hidden;
   position: absolute;
 }
 
-#section2{
+#second{
   text-align: center;
   margin: auto;
   visibility: hidden;
   position: absolute;
 }
 
-#section3{
+#third{
   text-align: center;
   margin: auto;
   visibility: hidden;
