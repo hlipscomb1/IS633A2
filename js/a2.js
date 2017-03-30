@@ -102,10 +102,9 @@ function getOrders()
     if (objRequest.readyState == 4 && objRequest.status == 200)
     {
         var output = JSON.parse(objRequest.responseText);
-        orderOutput(output);
-    }
+        orderOutput(output); }
   };
-  objRequest.open("GET". url, true);
+  objRequest.open("GET", url, true);
   objRequest.send();
 }
   
