@@ -82,7 +82,7 @@ function ListStores()
 
 function GenerateOutput(result)
 {
-    var display = "<table><tr><th>Customer ID</th><th>Company Name</th><th>Store City</th></tr>";
+    var display = "<table><tr><th>Company Name</th><th>Customer ID</th><th>Store City</th></tr>";
     var count = 0;
     var customerID = "";
     for(count = 0; count < result.GetAllCustomersResult.length; count ++) {
