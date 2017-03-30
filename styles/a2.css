@@ -1,9 +1,106 @@
-#first {visibility: hidden; position: absolute; height: 75%; width: 600px; overflow: scroll; background-color: white; }
+body {
+  max-width: 600px;
+}
 
-#second {visibility: hidden; position: absolute; height: 75%; width: 600px; overflow: scroll; background-color: navy; }
+h1 {
+  font-family: helvetica neue;
+  font-size: 45px;
+  text-align: center;
+  color: #333;
+}
 
-#third {visibility: hidden; position: absolute; height: 75%; width: 600px; overflow: scroll; background-color: navy; }
+h2 {
+  font-family: helvetica neue;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  color: #333;
+}
 
-table, th, td {border: 1px solid black; margin: auto; background-color: #d3d3d3}
+p {
+  font-family: helvetica neue;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+  color: #333;
+}
 
-body {width: 600px; padding: 5px; background-color: #f0f0f2; border-radius: 2em; }
+footer {
+  font-family: helvetica neue;
+  font-size: 10px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 10px;
+  color: #333;
+}
+
+label {
+  display: inline-block;
+  font-family: helvetica neue;
+  font-size: 10px;
+}
+
+table {
+  display: inline-block;
+  font-family: helvetica neue;
+  font-size: 10px;
+}
+
+#back {
+  display: inline-block;
+  font-family: helvetica neue;
+  font-size: 10px;
+  text-align: center;
+}
+
+#menuSelect{
+  text-align: center;
+  margin: auto;
+}
+
+#section1{
+  text-align: center;
+  margin: auto;
+  visibility: hidden;
+  position: absolute;
+}
+
+#section2{
+  text-align: center;
+  margin: auto;
+  visibility: hidden;
+  position: absolute;
+}
+
+#section3{
+  text-align: center;
+  margin: auto;
+  visibility: hidden;
+  position: absolute;
+}
+
+#orderDisplay{
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+}
+
+#customerOrderDisplay{
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+}
+
+#customerOrder{
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+}
+
+#buttonDisplay{
+  text-align: center;
+  margin: auto;
+  visibility: hidden;
+  position: absolute;
+  display: block;
+}
