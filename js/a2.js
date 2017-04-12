@@ -31,8 +31,8 @@ function ShowMenu(selection)
             document.getElementById("orderDisplay").style.position = "relative";
             document.getElementById("customerOrder").style.visibility = "hidden";
             document.getElementById("customerOrder").style.position = "absolute";
-            document.getElementById("buttonDisplay").style.visibility = "hidden";
-            document.getElementById("buttonDisplay").style.position = "absolute";
+            document.getElementById("buttonDisplay").style.visibility = "visible";
+            document.getElementById("buttonDisplay").style.position = "relative";
             break;
         case "third":
             document.getElementById("third").style.visibility ="visible";
@@ -150,8 +150,14 @@ document.getElementById("buttonDisplay").style.position = "relative";
 document.getElementById("customerOrder").innerHTML = orderText; }
 
 function navigateBack() {
+    ShowMenu("first");
+    document.getElementById("menu").selectedIndex = "1";
   document.getElementById("first").style.visibility = "visible";
   document.getElementById("first").style.position = "relative";
+  document.getElementById("second").style.visibility = "hidden";
+  document.getElementById("second").style.position = "absolute";
   document.getElementById("customerOrder").style.visibility = "hidden";
   document.getElementById("customerOrder").style.position = "absolute";
+  document.getElementById("orderDisplay").style.visibility = "hidden";
+  document.getElementById("orderDisplay").style.position = "absolute";
 }
